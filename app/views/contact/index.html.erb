@@ -1,0 +1,20 @@
+<div id="content-left">
+    <ul class="breadcrumb">
+        <li>
+            <a href="index.html">Home</a><span class="divider">/</span>
+        </li>
+        <li class="active">
+            Contact
+        </li>
+    </ul>
+    <h2>Min-height</h2>
+    <p>
+        The #container element of this page has a min-height of 100%. That way, if the content requires more height than the viewport provides, the height of #content forces #container to become longer as well. Possible columns in #content can then be visualised with a background image on #container; divs are not table cells, and you don't need (or want) the fysical elements to create such a visual effect. If you're not yet convinced; think wobbly lines and gradients instead of straight lines and simple color schemes.
+    </p>
+    <h2>Relative positioning</h2>
+    <p>
+        Because #container has a relative position, #footer will always remain at its bottom; since the min-height mentioned above does not prevent #container from scaling, this will work even if (or rather especially when) #content forces #container to become longer.
+    </p>
+
+</div>
+<%= render :partial => 'application/right_panel' %>

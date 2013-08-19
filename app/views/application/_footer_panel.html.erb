@@ -1,0 +1,22 @@
+<div id="footer">
+    <div id="footer_equipment">
+        <h2>Equipment</h2>
+        <p>
+            <%= image_tag 'logo_ableton.png', :width => '100' %>
+            <%= image_tag 'logo_maudio.png', :width => '193' %>
+            <%= image_tag 'logo_reason.gif', :width => '100' %>
+            <%= image_tag 'logo_akai.jpg', :width => '142' %>
+        </p>
+    </div>
+    <div style="padding: 20px;">
+        <h2>Booking Info</h2>
+        <ul>
+            <p>
+                Email: <%= mail_to "spektrumusic@gmail.com" %>
+            </p>
+        </ul>
+    </div>
+    <div>
+        <%= render :partial => 'application/navbar' %>
+    </div>
+</div>

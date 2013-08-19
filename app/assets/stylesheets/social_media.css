@@ -1,0 +1,65 @@
+.twitter {
+    background-image: url("icons/twitter.png");
+    background-repeat: no-repeat;
+    display: table-cell;
+    height: 24px;
+    padding: 2px;
+    width: 24px;
+}
+.facebook {
+    background-image: url("icons/facebook.png");
+    background-repeat: no-repeat;
+    display: table-cell;
+    height: 24px;
+    padding: 2px;
+    width: 24px;
+}
+.youtube {
+    background-image: url("icons/youtube.png");
+    background-repeat: no-repeat;
+    display: table-cell;
+    height: 24px;
+    padding: 2px;
+    width: 24px;
+}
+.instagram {
+    background-image: url("icons/instagram.png");
+    background-repeat: no-repeat;
+    display: table-cell;
+    height: 24px;
+    padding: 2px;
+    width: 24px;
+}
+.rss {
+    background-image: url("icons/rss.png");
+    background-repeat: no-repeat;
+    display: table-cell;
+    height: 24px;
+    padding: 2px;
+    width: 24px;
+}
+.flickr {
+    background-image: url("icons/flickr.png");
+    background-repeat: no-repeat;
+    display: table-cell;
+    height: 24px;
+    padding: 2px;
+    width: 24px;
+}
+.soundcloud {
+    background-image: url("icons/soundcloud.png");
+    background-repeat: no-repeat;
+    display: table-cell;
+    height: 24px;
+    padding: 2px;
+    width: 24px;
+}
+.twitter a, .facebook a, .youtube a, .rss a, .instagram a, .flickr a, .soundcloud a {
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+
+.social-menu li {
+	list-style:none;
+}
